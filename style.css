@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 16%;
+    text-align: center;
+}
+nav .navitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+nav .links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+}
+nav .links ul li p{
+    font-size: 13px;
+}
+.navitem button{
+    background: none;
+    padding: 13px 20px;
+    border-radius: 25px;
+}
+.navitem button:nth-child(1){
+    border: none;
+}
+.navitem button:nth-child(2){
+    border: 1px solid #0A66C2;
+    color: #0A66C2;
+}
+.herosection{
+    height: 90vh;
+    display: flex;
+}
+.herosection .leftsection{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+}
+.herosection .leftsection h1{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 200;
+    color: #8F5849;
+}
+.herosection .leftsection div{
+    height: 40px;
+    width: 80%;
+    margin-top: 20px;
+}
+.herosection .leftsection div input{
+    height: 100%;
+    border: 1px solid black;
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+}
+.herosection .leftsection p{
+    margin-top: 10px;
+    font-size: 13px;
+    width: 70%;
+    line-height: 15px;
+}
+.herosection .leftsection a{
+    color: #0A66C2;
+    text-decoration: none;
+}
+.herosection .leftsection button{
+    width: 80%;
+    border: none;
+    background-color: #0A66C2;
+    border-radius: 20px;
+    padding: 15px 0;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #fff;
+}
+.herosection .leftsection .otherlogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.herosection .leftsection .otherlogin hr{
+   width: 45%;
+}
+.herosection .rightsection{
+    width: 47%;
+}
+.herosection .rightsection img{
+    width: 100%;
+    margin-top: 55px;
+}
